@@ -1,4 +1,4 @@
-- Theo Siemens-Rhodes - W1nst0n03 - W1nst0n#8248
+- Theo Siemens-Rhodes - GitHub: W1nst0n03 - LinkedIn: https://www.linkedin.com/in/theo-siemens-rhodes/
 
 # To use this locally:
 - You will need and Node.js locally and an account with both Firebase and MongoDB

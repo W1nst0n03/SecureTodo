@@ -1,0 +1,33 @@
+//Get todos of a user
+GET http://localhost:3001/todo/theo.siemensrhodes@gmail.com
+
+###
+
+//Add a todo to a user
+POST http://localhost:3001/todo/create
+Content-Type: application/json
+
+{
+    "email": "theo.siemensrhodes@gmail.com",
+    "text": "Order Pizza"
+}
+
+###
+
+//Edit a todo
+PUT http://localhost:3001/todo/edit/63c1a22df0fc2eb5674a2220
+Content-Type: application/json
+
+{
+    "text": "Finish Homework"
+}
+
+###
+
+//Delete a todo
+DELETE http://localhost:3001/todo/delete/63c1a282f0fc2eb5674a222b
+
+###
+
+//Complete a todo by id
+PUT http://localhost:3001/todo/complete/63c4c021db7c8fff58f94487

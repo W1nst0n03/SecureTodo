@@ -1,0 +1,18 @@
+//Add user
+POST http://localhost:3001/user/new
+Content-Type: application/json
+
+{
+    "email": "theo.siemensrhodes@gmail.com",
+    "username": "Theo"
+}
+
+###
+
+//Delete User
+DELETE http://localhost:3001/user/delete/63b873266764b908a90dd78e
+
+###
+
+//Get User from username
+GET http://localhost:3001/user/email/theo.siemensrhodes@gmail.com
